@@ -21,7 +21,6 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Шапка */
 .header {
     background-color: #2c3e50;
     color: white;
@@ -32,7 +31,6 @@ a:hover {
     margin: 0;
 }
 
-/* Навигация */
 .nav {
     background-color: #34495e;
 }
@@ -57,13 +55,11 @@ a:hover {
     text-decoration: none;
 }
 
-/* Основное содержимое */
 .main {
     padding: 2rem 0;
     min-height: 400px;
 }
 
-/* Подвал */
 .footer {
     background-color: #2c3e50;
     color: white;
@@ -72,7 +68,6 @@ a:hover {
     margin-top: 2rem;
 }
 
-/* Дополнительные стили для форм */
 .form-group {
     margin-bottom: 1rem;
 }
@@ -105,7 +100,6 @@ button:hover, .button:hover {
     background-color: #2980b9;
 }
 
-/* Сообщения */
 .messages {
     list-style: none;
     padding: 0;
