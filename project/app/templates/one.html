@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Мой сайт{% endblock %}</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="div">
+            <h1>Мой Мозг Сайт</h1>
+        </div>
+    </header>
+
+    <nav class="nav">
+        <div class="div">
+            <ul>
+                <li><a href="/">не важно(главная)</a></li>
+                <li><a href="/about/">не важно(о сайте)</a></li>
+                <li><a href="/contact/">не важно(контакты)</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="main">
+        <div class="div">
+            {% block content %}
+            {% endblock %}
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>клянусь мамой все права защищены.</p>
+        </div>
+    </footer>
+</body>
+</html>
